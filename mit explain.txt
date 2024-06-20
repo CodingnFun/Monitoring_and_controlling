@@ -1,0 +1,17 @@
+Open MIT APP INVENTOR in your browser and import from computer the provided apk file, then go to your thingspeak channel and api keys tab as shown in the figure attached, 
+and copy "get api request url" and add in the set web block in the mit app, do the same for all three fields, and don't forget to set field number in your url accordingly.
+
+set field value zero in the url for button off conditio and 1 for button on condition.
+
+for example
+
+https://api.thingspeak.com/update?api_key=xyz123456&field1=0    for button off 
+
+and 
+
+https://api.thingspeak.com/update?api_key=xyz123456&field1=1    for button on
+
+
+
+go to design screen of mit app, click on the web viewer icon and add url of display of field in home url section.
+do the same for all four screens to display sensors data.
